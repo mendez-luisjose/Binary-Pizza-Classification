@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.12.0/dist/tf.min.js"></script>
+    <script src="./script.js" defer></script>
+    <title>Binary Pizza Classification</title>
+</head>
+<body>
+    <div class="app">
+        <div class="central-div">
+            <div class="header-div">
+                <h1 class="title div-element">Pizza A.I.</h1>
+                <img id="img-1" class="div-element" src="./img/pizza.png" alt="">
+            </div>
+            <h2 class="div-element div-message-1">Upload an Food Image:</h2>
+            <canvas id="canvas-an" width="256" height="256"></canvas>
+            <img id="preview"width="320" height="270">
+            <div class="div-buttons">
+                <input type="file" id="input" onchange="loadImage(this)">
+                <button id="guess-button">Predict</button>
+            </div>
+            <div class="pizza-result">
+                <h1 class="result div-element">Yes! It's a Pizza</h1>
+                <img id="pizza-img"" class="div-element" src="./img/happiness.png" alt="">
+            </div>
+            <div class="notpizza-result">
+                <h1 class="result div-element">No, It's not a Pizza</h1>
+                <img id="notpizza-img" class="div-element" src="./img/not-allowed.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
