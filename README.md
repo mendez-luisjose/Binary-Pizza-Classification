@@ -10,9 +10,9 @@
 The model was exported using `TensorflowJS` so it can be proved using HTML-CSS-JS 
 
 ### Test the Model with just uploading an image
-<img src="./preview/preview_1.png" width="800"/>
+<img src="./previews/preview_1.png" width="800"/>
 
 ### Test the Model with using your Webcam
-<img src="./preview/preview_2.png" width="800"/> 
+<img src="./previews/preview_2.png" width="800"/> 
 
 
