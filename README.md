@@ -16,6 +16,6 @@ The model was exported using `TensorflowJS` so it can be proved using HTML-CSS-J
 ## Test the Model using your Webcam:
 <img src="./previews/preview_2.png" width="800"/> 
 
-## Resources:
+## Resources
 This proyect was explained at: https://mendezluisjose.hashnode.dev/binary-tensorflow-pizza-model-classification
 
